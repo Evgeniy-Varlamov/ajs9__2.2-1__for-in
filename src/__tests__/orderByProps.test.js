@@ -16,16 +16,6 @@ test('Тест функции orderByProps - сортировка нужна', (
     { key: 'defence', value: 40 },
     { key: 'health', value: 10 }];
   expect(orderByProps(obj, sortKey)).toEqual(expected);
-});
-
-/* test('Ввод числа с плавающей точкой', () => {
-  expect(inputValidation('2.54')).toBe(2.54);
-});
-
-test('Ввод недесятичного числа', () => {
-  expect(inputValidation('0x11')).toBe('err');
-});
-
-test('Ввод не числа', () => {
-  expect(inputValidation('abc')).toBe('err');
-}); */
+  console.log(orderByProps(obj, sortKey));
+  console.log(expected);
+})
