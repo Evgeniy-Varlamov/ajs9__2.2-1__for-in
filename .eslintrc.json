@@ -26,6 +26,7 @@
         "import/extensions": [
             "error",
             "ignorePackages"
-        ]
+        ],
+        "eqeqeq": 0
     }
 }
