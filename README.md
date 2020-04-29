@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/av82dcyw33mtc648?svg=true)](https://ci.appveyor.com/project/Evgeniy-Varlamov/ajs9-2-2-1-for-in)
