@@ -18,4 +18,4 @@ test('Тест функции orderByProps - сортировка нужна', (
   expect(orderByProps(obj, sortKey)).toEqual(expected);
   console.log(orderByProps(obj, sortKey));
   console.log(expected);
-})
+});
