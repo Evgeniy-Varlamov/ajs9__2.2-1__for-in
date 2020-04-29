@@ -16,6 +16,4 @@ test('Тест функции orderByProps - сортировка нужна', (
     { key: 'defence', value: 40 },
     { key: 'health', value: 10 }];
   expect(orderByProps(obj, sortKey)).toEqual(expected);
-  console.log(orderByProps(obj, sortKey));
-  console.log(expected);
 });
