@@ -14,7 +14,7 @@ export default function orderByProps(obj, sortFields) {
       if (a.key === sortFields[i]) {
         return -1;
       }
-      return 0;
+      return 1;
     });
   }
   const arrObjsTemp = arrObjs.splice(sortFields.length);
@@ -23,5 +23,6 @@ export default function orderByProps(obj, sortFields) {
     return -1;
   });
   const result = arrObjs.concat(arrObjsTemp);
+  console.log(result);
   return result;
 }
